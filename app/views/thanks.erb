@@ -1,0 +1,6 @@
+<% @tacs.each do |tac| %>
+  <% tac.email_addresses.each do |mail| %>
+    <%= "#{mail.email_address}" %>
+  <% end %>
+<% end %>
+
