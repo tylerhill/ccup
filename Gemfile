@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'constantcontact'
 gem 'rails_12factor', group: :production
+gem 'activesupport'
 ruby '2.2.3'
 
 

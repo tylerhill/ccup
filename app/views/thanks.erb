@@ -1,6 +1,11 @@
-<% @tacs.each do |tac| %>
-  <% tac.email_addresses.each do |mail| %>
-    <%= "#{mail.email_address}" %>
+<% if @tacs.present? %> 
+  <% @tacs.each do |tac| %>
+    <% tac.email_addresses.each do |mail| %>
+      <%= "#{mail.email_address}" %>
+      <%= "#{mail.id}" %>
+    <% end %>
   <% end %>
+<% else %>
+  <p> ADDED </p>
 <% end %>
 

@@ -166,6 +166,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   byebug
   coffee-rails (~> 4.1.0)
   constantcontact
