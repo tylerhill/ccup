@@ -38,7 +38,6 @@ post '/' do
 	  end
 	else 
 	  contact = ConstantContact::Components::Contact.create(@contact)
-	  puts YAML::dump(contact)
 	  cc.add_contact(contact)
 	end
 	erb :thanks
