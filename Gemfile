@@ -3,6 +3,7 @@ gem 'sinatra'
 gem 'constantcontact'
 gem 'rails_12factor', group: :production
 gem 'activesupport'
+gem 'shopify_app', '6.1.0'
 ruby '2.2.3'
 
 
